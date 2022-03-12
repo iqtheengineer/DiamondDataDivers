@@ -1,0 +1,14 @@
+import streamlit as st  # pip install streamlit
+import pandas as pd  # pip install pandas
+import plotly.express as px  # pip install plotly-express
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import base64
+from PIL import Image  # Pillow  https://pillow.readthedocs.io/en/stable/reference/Image.html
+from sklearn.ensemble import RandomForestRegressor
+from scipy import stats
+from sklearn.base import BaseEstimator, TransformerMixin
+from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
